@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <RecentSearches />
-      <button className="font-bold">ciao</button>
+      <button className="btn-primary">ciao</button>
       <SearchResult />
     </>
   );
