@@ -1,15 +1,18 @@
 import {useState} from "react";
 import RecentSearches from "./components/recentSearches/RecentSearches";
 import SearchResult from "./components/searchResult/SearchResult";
+import s from "./SearchSuggestions.module.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <RecentSearches />
-      <button className="btn-primary">ciao</button>
-      <SearchResult />
+      <div className={s.ss_container}>
+        <RecentSearches />
+
+        <SearchResult />
+      </div>
     </>
   );
 }

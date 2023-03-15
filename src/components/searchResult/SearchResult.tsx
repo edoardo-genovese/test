@@ -1,9 +1,11 @@
+import ss from "./SearchResult.module.css";
+
 const SearchResult = () => {
   return (
     <>
-      <div className="flex md:flex-row sm:flex-col-reverse flex-col-reverse">
+      <div className={ss.flex_container}>
         <div>
-          <div className=" mt-8 flex md:flex-col justify-between sm:flex-row flex-col">
+          <div className={ss.flex_categories_help}>
             <div>
               <p className="font-bold">Categories</p>
               <p className="mt-6 text-sm">
@@ -40,9 +42,9 @@ const SearchResult = () => {
             </span>
           </div>
 
-          <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-8 mt-8">
-            <div className="bg-white flex py-4 px-5">
-              <div className="w-24 h-9 mr-8">
+          <div className={ss.products_grid}>
+            <div className={ss.products_card}>
+              <div>
                 <img src="https://dev.readers.com/tn_images--D--Anderson-Angle-Silver---jpg_w920.jpg" />
               </div>
               <div>

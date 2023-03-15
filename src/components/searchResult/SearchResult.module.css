@@ -1,0 +1,19 @@
+.flex_container {
+  @apply flex md:flex-row sm:flex-col-reverse flex-col-reverse;
+}
+
+.flex_categories_help {
+  @apply mt-8 flex md:flex-col justify-between sm:flex-row flex-col;
+}
+
+.products_grid {
+  @apply grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-8 mt-8;
+}
+
+.products_card {
+  @apply bg-white flex py-4 px-5;
+}
+
+.products_card img {
+  @apply w-24 h-9 mr-8;
+}

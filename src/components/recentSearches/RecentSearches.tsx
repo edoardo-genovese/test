@@ -1,12 +1,12 @@
-import s from "./RecentSearches.module.css";
+import ss from "./RecentSearches.module.css";
 
 const RecentSearches = () => {
   return (
     <>
-      <div className="flex flex-nowrap sm:items-center max-sm:flex-col py-6 gap-x-8">
-        <span className="font-bold">Recent Searches</span>
-        <div className="flex sm:mt-0 mt-3 gap-4 font-semibold">
-          <button className={s.button}>Clear</button>
+      <div className={ss.flex_container}>
+        <span className={ss.header}>Recent Searches</span>
+        <div className={ss.flex_container_searches}>
+          <button className={ss.btn}>Clear</button>
           <button className="bg-white text-black text-sm px-6 py-2 rounded-full">
             Rainbow
           </button>
